@@ -11,3 +11,13 @@ body {
     #242e3c 75%
   );
 }
+.saturn1 { display:flex;
+flex-direction:column;
+width: 1000px;
+height: 860px;
+justify-content:flex-end;
+align-items: center;
+box-shadow: #bd922f;
+padding: 2000px;
+margin: 4000px;
+}
