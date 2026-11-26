@@ -1,0 +1,13 @@
+body {
+  min-height: 100vh;
+  padding: 40px 24px 70vh;
+  font-family: system-ui, sans-serif;
+  background: #f4f1ea;
+  color: #1c1917;
+  background: radial-gradient(
+    circle,
+    #efd69b 15%,
+    #859dc3 40%,
+    #242e3c 75%
+  );
+}
