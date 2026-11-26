@@ -11,3 +11,17 @@ body {
     #242e3c 75%
   );
 }
+
+.venera {
+  width: 100px;
+  height: 100px;
+  /* background-image: url(./img/veneraa.png); */
+  border-radius: 50%;
+  position: absolute;
+  top: 70%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  box-shadow: -16px 18px 28px rgba(16 ,18, 24, 0.5);
+  background: radial-gradient(circle at top right, #d1921d 0%);
+
+}
