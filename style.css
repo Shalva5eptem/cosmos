@@ -1,4 +1,5 @@
 body {
+    position: relative;
   min-height: 100vh;
   padding: 40px 24px 70vh;
   font-family: system-ui, sans-serif;
@@ -20,4 +21,31 @@ align-items: center;
 box-shadow: #bd922f;
 padding: 2000px;
 margin: 4000px;
+}
+.mars {
+    top: -20px;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 18%;
+    left: 30%;
+    /* transform: translate(-50%, -50%); */
+    box-shadow: -16px 18px 28px rgba(16, 18, 24, 0.55);
+    background: radial-gradient(circle at top right, #d06d0a 0%, #db2626 46%, #ea8017 100%);
+}
+
+.venera {
+  width: 100px;
+  height: 100px;
+  /* background-image: url(./img/veneraa.png); */
+  border-radius: 50%;
+  position: absolute;
+  top: 70%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  box-shadow: -16px 18px 28px rgba(16 ,18, 24, 0.5);
+  background: radial-gradient(circle at top right, #d1921d 0%);
+
 }
