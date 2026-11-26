@@ -50,3 +50,28 @@ margin: 4000px;
   background: radial-gradient(circle at top right, #d1921d 0%);
 
 }
+
+.jupiter {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    position: absolute;
+    top: 35%;
+    right: 15%;
+
+    background: radial-gradient(
+        circle at 30% 30%,
+        #f5d6a0 0%,
+        #d9a066 20%,
+        #a85f35 35%,
+        #e8bd80 45%,
+        #a65e38 55%,
+        #e9c28d 65%,
+        #b66b40 80%,
+        #603b2b 100%
+    );
+
+    box-shadow:
+        -15px 15px 30px rgba(0, 0, 0, 0.5),
+        inset -15px -10px 25px rgba(0, 0, 0, 0.4);
+}
